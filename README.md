@@ -1,6 +1,6 @@
 # Cpp-Comment
 
-​	Cpp-Comment is a tool to auto generate C/Cpp function comment.
+​	Cpp-Comment is a simple tool to auto generate C/Cpp function comment.
 
 ## Usage：
 
