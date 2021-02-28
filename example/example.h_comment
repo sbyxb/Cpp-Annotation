@@ -1,0 +1,79 @@
+#pragmna once
+
+/** @func       TestFuncNone
+ *  @brief      test func none
+ *  @return     void
+ */
+void TestFuncNone()
+{
+    if (true)
+    {
+        printf("true\n");
+    }
+    else
+    {
+        printf("false\n");
+    }
+}
+
+
+/** @func       TestFuncParam
+ *  @brief      test func param
+ *  @param      nParam1 [I]
+ *              pParam2 [O]
+ *              nParam3 [O]
+ *  @return     int
+ */
+int TestFuncParam(int nParam1, char* pParam2, int &nParam3)
+{
+    for (int i = 0; i < 10; ++i)
+    {
+        printf("i\n");
+    }
+
+    return 0;
+}
+
+struct ST_TEST
+{
+    int     nValue;
+}
+
+class Example
+{
+public:
+    // Example construction
+    Example(/* args */)
+    {
+
+    }
+    
+    // Example destruction
+    ~Example()
+    {
+
+    }
+
+    /** @func       TestClassFunc1
+     *  @brief      test class const func
+     *  @param      stTestIn    [I]
+     *              stTestOut   [O]
+     *  @return     void
+     */
+    void TestClassFunc1(const ST_TEST &stTestIn, ST_TEST &stTestOut) const;
+
+    /** @func       TestClassFunc2
+     *  @brief      test class static func
+     *  @param      nParam1 [I]
+     *              nParam2 [O]
+     *  @return     int
+     */
+    static int TestClassFunc2(int nParam1, int &nParam2);
+
+private:
+    /* data */
+    int         m_nData;
+
+};
+
+
