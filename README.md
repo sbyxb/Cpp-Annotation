@@ -1,6 +1,6 @@
-# Cpp-Comment
+# Cpp-Annotation
 
-​	Cpp-Comment is a simple tool to auto generate C/Cpp function comment.
+​	Cpp-Annotation is a simple tool to auto generate C/Cpp function comment.
 
 ## Usage：
 
